@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class main {
     public static void main(String[] args) {
         int[] a = new int[7];
@@ -12,5 +14,6 @@ public class main {
         for (int i = 0; i < a.length; i++) {
             System.out.println(a[i]);
         }
+        System.out.println(Arrays.binarySearch(a, 5));
     }
 }
