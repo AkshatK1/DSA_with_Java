@@ -7,6 +7,9 @@ public class Main {
         System.out.println("SELECTION SORT:");
         SelectionSort ss = new SelectionSort();
         ss.selectionSort(a);
+        System.out.println("INSERTION SORT:");
+        InsertionSort is = new InsertionSort();
+        is.insertionSort(a);
     }
 
     public void swap(int[] a, int i, int j) {
