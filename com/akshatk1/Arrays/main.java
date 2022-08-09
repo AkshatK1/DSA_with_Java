@@ -1,3 +1,5 @@
+package com.akshatk1.Arrays;
+
 public class main {
     public static void main(String[] args) {
         int[] a = new int[7];

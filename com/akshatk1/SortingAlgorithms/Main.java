@@ -1,3 +1,5 @@
+package com.akshatk1.SortingAlgorithms;
+
 public class Main {
     public static void main(String[] args) {
         int[] a = {20, -39, 34, 56, 55, 1, -22, 35};
@@ -10,6 +12,9 @@ public class Main {
         System.out.println("INSERTION SORT:");
         InsertionSort is = new InsertionSort();
         is.insertionSort(a);
+        System.out.println("CYCLE SORT:");
+        CycleSort cs = new CycleSort();
+        cs.cyclesort();
     }
 
     public void swap(int[] a, int i, int j) {

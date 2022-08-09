@@ -1,3 +1,5 @@
+package com.akshatk1.SortingAlgorithms;
+
 public class SelectionSort {
     public void selectionSort(int[] a) {
         Main obj = new Main();

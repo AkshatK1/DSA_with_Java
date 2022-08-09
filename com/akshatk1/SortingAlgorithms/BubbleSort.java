@@ -1,3 +1,5 @@
+package com.akshatk1.SortingAlgorithms;
+
 public class BubbleSort {
     // after each iteration, we find largest element and swap it. After each cycle, we get largest element at the end
     public void bubbleSort(int[] a) {

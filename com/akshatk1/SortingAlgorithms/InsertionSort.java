@@ -1,3 +1,5 @@
+package com.akshatk1.SortingAlgorithms;
+
 public class InsertionSort {
     public void insertionSort(int[] a) {
         Main obj = new Main();
